@@ -41,7 +41,7 @@ First make Home, About, Contact
 
 - Look into nav bar
 
-- Conact
+- Contact
     - Booking requests, join email list?  
     - 4 fields, name (optional), email, subject, content - whatever is typed in the form is an email that goes to Calvin
 
@@ -54,3 +54,6 @@ consider messing with this codepen
 https://codepen.io/davidredsox/pen/yebwBR
 or 
 https://css-tricks.com/creating-css-sliding-door-effect/
+
+- JS for movie
+- section off an MVP because a full site won't really possible, try to include ever facet, 
