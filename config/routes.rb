@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
   resources :blogs
-  
-  get 'pages/home'
 
-  get 'pages/about'
+  get 'about-calvin', to: 'pages#about'
 
-  get 'pages/contact'
+  get 'contact', to: 'pages#contact'
 
   root to: 'pages#home'
 
