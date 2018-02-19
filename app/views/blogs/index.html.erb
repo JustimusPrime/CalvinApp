@@ -1,5 +1,7 @@
 <h1>This is Calvin's blog page</h1>
 
+<%= link_to "Create New Item", new_blog_url, class: 'btn btn-primary' %>
+
 <div class="container">
   <% @blog_posts.each do |blog_post| %>
       <p><%= blog_post.title %></p>
