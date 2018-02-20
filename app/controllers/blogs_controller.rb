@@ -40,6 +40,14 @@ class BlogsController < ApplicationController
     @blog_post = Blog.find(params[:id])
   end
 
+  def destroy
+    @blog_post = Blog.find(params[:id])
+    @blog_post.destroy
+    respond_to do |format|
+      format.html { redirect_to blogs_url, notice: "Calvin, you have mercilessly murdered this blog post." }
+    end
+  end
+
 
   private
 
