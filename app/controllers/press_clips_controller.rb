@@ -35,7 +35,7 @@ class PressClipsController < ApplicationController
   end
 
   def destroy
-    @press_clip = Gig.find(params[:id])
+    @press_clip = PressClip.find(params[:id])
     @press_clip.destroy
     respond_to do |format|
       format.html { redirect_to press_clips_url, notice: "You have deleted this press clip, probably because nobody remembers Jen Perney" }
