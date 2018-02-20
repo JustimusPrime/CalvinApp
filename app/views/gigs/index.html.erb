@@ -34,6 +34,8 @@
         <td><%= gig.show_name %></td>
         <td><%= gig.location %></td>
         <td><%= gig.link %></td>
+        <td><%= link_to 'Edit', edit_gig_path(gig) %></td>
+        <td><%= link_to 'Delete', gig, method: :delete, data: { confirm: 'Are you sure you want to delete this show? Like is it UG or is it important?' } %></td>
       </tr>
     <% end %>
     </tbody>
