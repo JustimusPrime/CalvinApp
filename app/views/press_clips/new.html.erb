@@ -1,0 +1,28 @@
+<h1>Add a new press clip for Calvin</h1>
+
+<%= form_with(model: @press_clip) do |form| %>
+  <div class="form-group">
+    <%= form.label :title %>
+    <%= form.text_field :title, class: 'form-control', placeholder: 'Press name ex: Time Magazine, splitsider.com' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :subtitle %>
+    <%= form.text_field :subtitle, class: 'form-control', placeholder: 'Description of press or an excerpt' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :link %>
+    <%= form.text_field :link, class: 'form-control', placeholder: 'Web link for show' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :image %>
+    <%= form.text_field :image, class: 'form-control', placeholder: 'Image for press, screenshot, scan, etc' %>
+  </div>
+
+
+  <div class="form-group">
+    <%= form.submit "Submit", class: 'btn btn-primary' %>
+  </div>
+<% end %>

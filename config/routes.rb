@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :press_clips
   resources :gigs
   resources :blogs
 

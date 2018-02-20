@@ -1,29 +1,14 @@
 <h1>Calvin's Blog Edits</h1>
 
-<%= form_with(model: @gig) do |form| %>
+<%= form_with(model: @blog_post) do |form| %>
   <div class="form-group">
-    <%= form.label :date %>
-    <%= form.date_field :date, class: 'form-control', placeholder: 'Show Date' %>
+    <%= form.label :title %>
+    <%= form.text_field :title, class: 'form-control'%>
   </div>
 
   <div class="form-group">
-    <%= form.label :time %>
-    <%= form.time_field :time, class: 'form-control', placeholder: 'Show Time' %>
-  </div>
-
-  <div class="form-group">
-    <%= form.label :show_name %>
-    <%= form.text_area :show_name, class: 'form-control', placeholder: 'Show Name' %>
-  </div>
-
-  <div class="form-group">
-    <%= form.label :location %>
-    <%= form.text_area :location, class: 'form-control', placeholder: 'Location' %>
-  </div>
-
-  <div class="form-group">
-    <%= form.label :link %>
-    <%= form.text_area :link, class: 'form-control', placeholder: 'Web Link' %>
+    <%= form.label :body %>
+    <%= form.text_area :body, class: 'form-control'%>
   </div>
 
   <div class="form-group">

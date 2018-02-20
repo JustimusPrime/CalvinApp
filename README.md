@@ -20,9 +20,14 @@ First make Home, About, Contact
 
 Blog
   full CRUD
-  + maybe image 
+  - maybe image 
 
-DONE
+Schedule/Bookings/Events
+  date, time, name of show, location, link, map link, 
+  full CRUD
+  - tickets?
+  - format: list? little cards?
+  - try to set scheduler like "every week" or "every monday" etc
 
 Press
   + he needs new press
@@ -30,10 +35,6 @@ Press
   + add category (check skills for blog)
   + add html parser thing for link (check portfolio on show page)
 
-Schedule/Bookings/Events -
-  - format: list? little cards?
-  - try to set scheduler like "every week" or "every monday" etc
-  - date, time, name of show, location, link, map link, tickets?
 
 - Videos
     - One big one, links at bottom and then a main vid, clicking link switches out with big one

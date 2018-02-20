@@ -1,0 +1,2 @@
+class PressClip < ApplicationRecord
+end
