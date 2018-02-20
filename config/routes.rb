@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :gigs
   resources :blogs
 
   get 'about-calvin', to: 'pages#about'
