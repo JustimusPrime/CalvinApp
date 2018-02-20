@@ -28,6 +28,7 @@ Press
   + he needs new press
   + image uploader, title, subtitle, link, image-link
   + add category (check skills for blog)
+  + add html parser thing for link (check portfolio on show page)
 
 Schedule/Bookings/Events -
   - format: list? little cards?
