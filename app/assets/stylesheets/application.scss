@@ -30,10 +30,16 @@
   background-size: cover;
 }
 
+body {
+  color: white;
+  margin-bottom: 10px;
+}
+
 .mastfoot {
   width: 100%;
   text-align: center;
   color: #C5B358;
+  overflow:hidden;
   .app-footer {
     padding-top: 10px;
   }
@@ -49,6 +55,15 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.blog-card {
+  background-color: rgba(255, 255, 255, 0.0)
+}
+
+.blog-card span {
+  color:  #D4AF37;
+}
+
 
 /*three fake classes to move around*/
 

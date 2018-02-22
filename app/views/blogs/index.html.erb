@@ -1,18 +1,22 @@
+<div class="container">
+  
 <h1>This is Calvin's blog page</h1>
 
-<div class="container">
 
   <%= link_to "Create New Item", new_blog_url, class: 'btn btn-primary' %>
   <br>
   <br>
 
-  <div class="card">
+<div class="row">
+  <div class="col-md-6">
+  </div>
+  <div class="col-md-6 card blog-card float-right">
     <% @blog_posts.each do |blog_post| %>
-        <p><%= blog_post.title %></p>
+        <p><h3><span><%= blog_post.title %></span></h3></p>
         <p><%= blog_post.body %></p>
         <p><%= link_to 'View', blog_post %></p>
         <p><%= link_to 'Edit', edit_blog_path(blog_post) %></p>
         <p><%= link_to 'Delete', blog_post, method: :delete, data: { confirm: 'Are you sure you want to delete this dude?' } %></p>
-  </div>
     <% end %>
+  </div>
 </div>
