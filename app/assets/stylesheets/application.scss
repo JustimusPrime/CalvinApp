@@ -14,3 +14,47 @@
  *= require_self
  */
 @import "bootstrap";
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('bill-bellamy-onstage-microphone.jpg') no-repeat;
+  background-size: cover;
+}
+
+.mastfoot {
+  width: 100%;
+  text-align: center;
+  color: #C5B358;
+  .app-footer {
+    padding-top: 10px;
+  }
+}
+
+.navbar .navbar-nav .nav-link {
+  color:  #D4AF37;
+}
+
+#navbar-primary .navbar-nav  {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*three fake classes to move around*/
+
+.show-me-1 {
+}
+.show-me-2 {
+}
+.show-me-3 {
+}

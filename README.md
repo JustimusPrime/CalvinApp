@@ -25,20 +25,22 @@ Blog
 Schedule/Bookings/Events
   date, time, name of show, location, link, map link, 
   full CRUD
+  - try to set scheduler like "every week" or "every monday" etc
+  - try the calendar maybe
   - tickets?
   - format: list? little cards?
-  - try to set scheduler like "every week" or "every monday" etc
 
 Press
-  + he needs new press
-  + image uploader, title, subtitle, link, image-link
-  + add category (check skills for blog)
+    full CRUD
+    image uploader, title, subtitle, link, image-link
   + add html parser thing for link (check portfolio on show page)
+  + add category (check skills for blog)
 
 
-- Videos
-    - One big one, links at bottom and then a main vid, clicking link switches out with big one
-    - check codepen for video layouts
+Videos
+  + videos need? embed code, title, description,
+  + One big one, links at bottom and then a main vid, clicking link switches out with big one
+  + check codepen for video layouts
 
 
 

@@ -1,0 +1,17 @@
+<nav id="navbar-primary" class="navbar navbar-expand-md navbar-dark">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ <a class="navbar-brand" href="#">Calvin S. Cato</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <ul class="navbar-nav">
+      <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+      <li><%= link_to "Home", root_path, class: "nav-item nav-link" %></li>
+      <li><%= link_to "About", about_calvin_path, class: "nav-item nav-link" %></li>
+      <li><%= link_to "Contact", contact_path, class: "nav-item nav-link" %></li>
+      <li><%= link_to "Blog", blogs_path, class: "nav-item nav-link" %></li>
+      <li><%= link_to "Schedule", gigs_path, class: "nav-item nav-link" %></li>
+      <li><%= link_to "Press", press_clips_path, class: "nav-item nav-link" %></li>
+    </ul>
+  </div>
+</nav>

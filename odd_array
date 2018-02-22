@@ -1,0 +1,6 @@
+
+
+def oddElements arr
+  arr each do |x|
+
+end

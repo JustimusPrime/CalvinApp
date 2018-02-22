@@ -8,25 +8,19 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">Calvin S. Cato</a>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-      <%= link_to "Home", root_path, class: "nav-item nav-link" %>
-      <%= link_to "About", about_calvin_path, class: "nav-item nav-link" %>
-      <%= link_to "Contact", contact_path, class: "nav-item nav-link" %>
-      <%= link_to "Blog", blogs_path, class: "nav-item nav-link" %>
-      <%= link_to "Schedule", gigs_path, class: "nav-item nav-link" %>
-      <%= link_to "Press", press_clips_path, class: "nav-item nav-link" %>
-    </div>
-  </div>
-</nav>
-
   <body>
+
+    <div id="background"></div>
+
+    <%= render "shared/application_nav"%>
+
     <%= yield %>
+
+    <footer class="fixed-bottom mastfoot">
+      <div class="inner">
+        <p class="app-footer">Copyright Calvin Cato | social media links | built by justimus prime</p>
+      </div>
+    </footer>
+
   </body>
 </html>
