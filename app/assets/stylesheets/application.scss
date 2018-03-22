@@ -64,6 +64,20 @@ body {
   color:  #D4AF37;
 }
 
+.home-table tr td {
+  border: 0;
+}
+
+#press-image {
+  width: 200px;
+}
+
+.active {
+  font-size: 200%; 
+  border-bottom: 5px solid #D4AF37;
+  border-top: 5px solid #D4AF37;
+}
+
 
 /*three fake classes to move around*/
 

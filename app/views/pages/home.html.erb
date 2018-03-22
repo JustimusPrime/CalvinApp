@@ -1,12 +1,36 @@
 <div class="container">
   <h1>Calvin smells</h1>
 
-<div class="row">
-  <div class="col-md-6">
-  </div>
-  <div class="col-md-6">
-  </div>
+  <div class="row">
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-6">
+      <table class="table home-table">
+<!--         <thead>
+          <tr>
+            <th>
+              Date
+            </th>     
+            <th>
+              Show
+            </th>
+            <th>
+              Link
+            </th>      
+          </tr>
+        </thead> -->
+        <tbody>
+        <% @gigs.each do |gig| %>
+          <tr class="noBorder">
+            <td><%= gig.date %></td>
+            <td><%= gig.show_name %></td>
+            <td><a href="<%= gig.link %>">link</a></td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
 
-</div>
+  </div>
 
 </div>

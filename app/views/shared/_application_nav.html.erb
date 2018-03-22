@@ -6,12 +6,14 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <ul class="navbar-nav">
       <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-      <li><%= link_to "Home", root_path, class: "nav-item nav-link" %></li>
-      <li><%= link_to "About", about_calvin_path, class: "nav-item nav-link" %></li>
-      <li><%= link_to "Contact", contact_path, class: "nav-item nav-link" %></li>
-      <li><%= link_to "Blog", blogs_path, class: "nav-item nav-link" %></li>
-      <li><%= link_to "Schedule", gigs_path, class: "nav-item nav-link" %></li>
-      <li><%= link_to "Press", press_clips_path, class: "nav-item nav-link" %></li>
+      <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Home", root_path, class: "nav-item nav-link" %></li>
+      <li class="<%= 'active' if current_page?(about_calvin_path) %>"><%= link_to "About", about_calvin_path, class: "nav-item nav-link" %></li>
+      <li class="<%= 'active' if current_page?(contact_path) %>"><%= link_to "Contact", contact_path, class: "nav-item nav-link" %></li>
+      <li class="<%= 'active' if current_page?(blogs_path) %>"><%= link_to "Blog", blogs_path, class: "nav-item nav-link" %></li>
+      <li class="<%= 'active' if current_page?(gigs_path) %>"><%= link_to "Schedule", gigs_path, class: "nav-item nav-link" %></li>
+      <li class="<%= 'active' if current_page?(press_clips_path) %>"><%= link_to "Press", press_clips_path, class: "nav-item nav-link" %></li>
+      <li><%= link_to "Video", "#", class: "nav-item nav-link" %></li>
+      <li><%= link_to "Playable Characters Podcast", "http://playablecharacterspodcast.com", class: "nav-item nav-link" %></li>
     </ul>
   </div>
 </nav>

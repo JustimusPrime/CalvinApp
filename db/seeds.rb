@@ -18,7 +18,7 @@ end
     time: "2018-07-01 15:45:00",
     show_name: "75th Annual UG Anniversary",
     location: "123456 Superfunstreet, New York, NY 10018",
-    link: "http://www.yahoo.com",
+    link: "http://www.imdb.com/name/nm3519948/",
     )
 end
 
@@ -26,8 +26,8 @@ end
   PressClip.create!(
     title: "Comedy Hole Magazine",
     subtitle: "They wrote this sweet article about me",
-    link: "http://www.yahoo.com",
-    image: "http://www.image.com",
+    link: "http://www.imdb.com/name/nm3519948/",
+    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMmY5MTRlOTctY2JhZC00MDk5LWIwNDEtYjQ0ZWViZjU2N2VkXkEyXkFqcGdeQXVyMTk0MDM5NTg@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
     )
 end
 
